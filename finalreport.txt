@@ -1,0 +1,114 @@
+﻿Group 24:
+Sophie Lancaster
+Anthony Di Falco
+Elisabetta Caldesi
+Brianna Hoelting
+Data Structures Final Project Report
+May 3, 2017
+
+
+User Manual
+1. For optimal performance, use on your local machine and preferably on a Mac.
+2. Download the API Client library using the following instructions:
+   1. Download pip installer in Terminal using the following command: sudo easy_install pip
+   2. Downloaded the Google API client using the following command: sudo pip install --upgrade google-api-python-client
+1. Clone our project repository using the following command: git clone https://ecaldesi@gitlab.com/ecaldesi/cse20312.git
+2. After successfully cloning the repository make sure the following files are in your folder:
+* Script.cpp
+* createHTML.py
+* webLoader.py
+* googleImg.py
+* SDHdinner.txt
+* SDHlunch.txt
+* SDHbreakfast.txt
+* callGoogleImg.py
+1. Run the Makefile by using the following command: make
+2. Insert meal preference when prompted using the following input options:
+* B → breakfast
+* L → lunch
+* D → dinner
+1. Enter food preferences in CSV format when prompted.
+Ex.) corn,chicken,rice
+NOTE: Make sure there are no spaces in the input
+NOTE: Max of 5 inputs
+1. Enter total desired calorie count for meal as a single number when prompted.
+Ex.) 500
+1. If you are running the program on your a local machine, the output will be an HTML page that opens on your preferred browser. Otherwise, the output, excluding the images, will be displayed in a terminal window.
+
+Group Member Time Logs
+In the beginning of the project we used a repository on GitHub but were having problems pushing and pulling the code using the repository and so decided to create a GitLab repository because we were more familiar with these repositories. Some of the code that was mentioned at the beginning of our time logs was pushed to the GitHub repository but has since been deleted because that code did not end up getting used.
+
+
+Anthony Di Falco Time Log:
+3/10/17: 2:00PM - 4:00PM → Researching C++ and Python methods for creating webpages
+3/12/17: 12:00PM - 2:00PM → Python-to-HTML (webbrowser package method) Tutorial
+3/14/17: 2:00PM - 5:00PM → Writing code for executable
+3/24-26/17: Hackathon → Learned to utilize Google Search API to automatically grab PNG images → Learned to automate website hierarchy using custom framework
+4/3/17: 4:00PM - 5:00PM → No response from Food Services or other contacts so during lab Sophie and I decided that we would construct text files that contained the data that we needed
+4/9/17: 8:00PM - 9:00PM → Group meeting → Decided on the course of action for the rest of the project
+4/23/17: 4:00PM - 10:00PM → Group meeting → Wrote entire script.cpp and updated text files
+4/26/17: 7:00PM - 10:00PM → Group meeting → Connected the HTML Python code to script.cpp
+4/27/17: 9:00PM - 11:00PM → Group meeting → Formatted HTML page, added total calorie count component and worked on presentation
+5/1/17: 10:00PM - 1:00AM → Group meeting → Worked on using the Google API client library to download images representing each food item on the outputted menu 
+5/2/17: 8:00PM - 10:00PM → Group meeting → Finalized Google Images component, wrote Makefile and worked on final report
+
+
+Brianna Hoelting Time Log:
+3/19/17: 11:30AM-12:30PM →  Analyze data from online to see how it would best be \
+organized/accessed
+3/19/17: 1:45PM-2:45PM →  Write out data structures to be used
+3/19/17: 10:00PM-12:00AM → Code the data structures
+4/9/17: 8:00PM - 9:00PM → Group meeting → Decided on the course of action for the rest of the project
+4/10/17: 4:00PM - 5:00PM → Researched ways to use Python to read in information from a text file and the most efficient way to do so
+4/17/17: 9:00PM - 10:00PM → Went through and added more of the necessary information to the text files that will be used as our programs input
+4/23/17: 5:00PM - 10:00PM → Group meeting → Wrote entire script.cpp and updated text files
+4/23/17: 11:00PM - 1:00AM → Worked on finalizing the menu creation part of script.cpp
+4/26/17: 7:00PM - 10:00PM → Group meeting → Connected the HTML python code to script.cpp
+4/27/17: 9:00PM - 11:00PM → Group meeting → Formatted HTML page, added total calorie count component and worked on presentation
+5/1/17: 10:00PM - 1:00AM → Group meeting → Worked on using the Google API client library to download images representing each food item on the outputted menu 
+5/2/17: 8:00PM - 10:00PM → Group meeting → Finalized Google Images component, wrote Makefile and worked on final report
+
+
+Sophie Lancaster Time Log: 
+3/11/17: 1:00PM - 1:30PM → Research into which websites to use and inspection of the source code for those websites
+3/13/17: 3:00PM - 6:00PM → Constructing the shell scripts / pipelines needed to extract that information necessary for our project
+3/14/17: 9:00AM - 10:00AM → Research into trouble areas such as how to access the information inside a certain container and the error I was getting from trying to curl the information from the third website
+4/3/17: 4:00PM - 5:00PM → No response from Food Services or other contacts so during lab Anthony and I decided that we would construct text files that contained the data that we needed
+4/9/17: 8:00PM - 9:00PM → Group meeting → Decided on the course of action for the rest of the project
+4/18/17: 9:00PM - 10:00PM → Went through and added more of the necessary information to the text files that will be used as our programs input
+4/23/17: 4:00PM - 10:00PM → Group meeting → Wrote entire script.cpp and updated text files
+4/26/17: 7:00PM - 10:00PM → Group meeting → Connected the HTML python code to script.cpp
+4/27/17: 9:00PM - 11:00PM → Group meeting → Formatted HTML page, added total calorie count component and worked on presentation
+5/1/17: 10:00PM - 1:00AM → Group meeting → Worked on using the Google API client library to download images representing each food item on the outputted menu 
+5/2/17: 8:00PM - 10:00PM → Group meeting → Finalized Google Images component, wrote Makefile and worked on final report
+
+
+Elisabetta Caldesi Time Log:
+3/16/17: 2:00PM - 3:00PM → Look over notes and slides from class about implementing hierarchy and composition with classes and start writing the classes we were going to use
+3/17/17: 10:00AM - 11:30AM → Continue constructing classes
+3/20/17: 8:00PM - 10:00PM → Researching how to fill in classes and data members with data extracted from the nutrition website and writing down code for it
+Beginning of April: emailing back and forth with OIT and dining hall contacts without reaching any conclusions.
+4/9/17: 8:00PM - 9:00PM → Group meeting → Decided on the course of action for the rest of the project
+4/14/17: 10:00AM - 10:30AM → Create a python script that will be used to read in information from the text file and figure out how it will be structured
+4/15/17: 10:00AM - 11:30AM → Research on python and how to implement the for loops that assign each food name, calories and type
+4/17/17: 6:00PM - 7:00PM → Researching which data structure to use to store the food information → Implementing a dictionary as the data structure chosen
+4/23/17: 4:00PM - 10:00PM → Group meeting → Wrote entire script.cpp and updated text files
+4/26/17: 7:00PM - 10:00PM → Group meeting → Connected the HTML python code to script.cpp
+4/27/17: 9:00PM - 11:00PM → Group meeting → Formatted HTML page, added total calorie count component and worked on presentation
+5/1/17: 10:00PM - 1:00AM → Group meeting → Worked on using the Google API client library to download images representing each food item on the outputted menu 
+5/2/17: 8:00PM - 10:00PM → Group meeting → Finalized Google Images component, wrote Makefile and worked on final report
+
+
+Link to Group Repository
+Most of the hours that we spent on this project were spent at group meetings where all four of us were together working on the same computer. While our commit log does show that we all contributed, this is why it may appear that some members contributed more.
+
+
+https://ecaldesi@gitlab.com/ecaldesi/cse20312.git
+
+
+Future Plans
+In the future if we wanted to expand on this project there are a few things we would plan on implementing. First of all we would want to implement day-to-day web scraping which would utilize a Python script to scrape the food items (and their calorie counts) in the dining hall for each meal using the University dining hall websites. This is something that we had hoped to implement at the beginning of the project and tried very hard to accomplish. However, this task became far more complicated than we had originally thought, and we were advised to instead just hard code the information for the purposes of this project. This is a feature that would make the tool we have created more accurate if the user wants to plan a meal for that day. In the future we would also want to make the number of menu items on the final HTML output page is dynamic. Right now the page always displays five menu items no matter how many foods are entered. While this still works, in order to make the output of the program more precise this would be a good feature to include. The final thing we would implement would be a similar HTML page for the input. By doing this the Dining Hall Meal Planner would have a more cohesive look and would generally be more user-friendly.
+
+
+Other Notes
+Sometimes the API client that we are using to obtain the food images does not return an image for a certain food item. In this case we have decided to use a default image so that there is at least some sort of image for that food item. Finally, because the image part of our output is automated using the API client we do not have a say in which pictures get displayed, and sometimes the API client makes questionable image decisions.
