@@ -18,9 +18,9 @@ For more details about the project reger to the finalreport.txt file.
 	* L = lunch
 	* D = dinner
 6. Enter food preferences in CSV format when prompted.
-	Ex.) corn,chicken,rice
-	**NOTE:** Make sure there are no spaces in the input
-	**NOTE:** Max of 5 inputs
+	* EXAMPLE: corn,chicken,rice
+	* Make sure there are no spaces in the input
+	* Max of 5 inputs
 7. Enter total desired calorie count for meal as a single number when prompted.
 8. If you are running the program on your local machine, the output will be an HTML page that open in your preferred browser.
 Otherwise, the output, excluding the images, will be displayed in a terminal window.
