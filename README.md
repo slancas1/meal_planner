@@ -1,9 +1,9 @@
 ## Dining Hall Meal Planner
 
-Authors: Sophie Lancaster, Brianna Hoelting, Anthony DiFalco, Elisabetta Caldesi
+**Authors:** Sophie Lancaster, Brianna Hoelting, Anthony DiFalco, Elisabetta Caldesi
 
 A program that takes user input and creates a menu for the user based on the items that can be found in the dining halls. 
-For more details about the project reger to the finalreport.txt file.
+For more details about the project refer to the *finalreport.txt* file.
 
 ## How to Use
 
@@ -18,11 +18,11 @@ For more details about the project reger to the finalreport.txt file.
 	* L = lunch
 	* D = dinner
 6. Enter food preferences in CSV format when prompted.
-	* EXAMPLE: corn,chicken,rice
+	* **EXAMPLE:** corn,chicken,rice
 	* Make sure there are no spaces in the input
 	* Max of 5 inputs
 7. Enter total desired calorie count for meal as a single number when prompted.
-8. If you are running the program on your local machine, the output will be an HTML page that open in your preferred browser.
+8. If you are running the program on your local machine, the output will be an HTML page that opens in your preferred browser.
 Otherwise, the output, excluding the images, will be displayed in a terminal window.
 
 ## Still to Do
@@ -30,9 +30,9 @@ Otherwise, the output, excluding the images, will be displayed in a terminal win
 * Make it more cohesive by allowing input to come from an HTML page as well
 * Make it more dynamic
 	* Use web scraping to retrieve daily menu items
-	* Allow the user to enter as many or as little menu items as they would like
-* Create more detailed algorithm for choosing food items / better utilize the calories
-* Include other options like allergens, dietry restraints, etc.
+	* Allow the user to enter as many menu items as they would like
+* Create more detailed algorithm for choosing food items / utilize calories better when choosing menu items
+* Include other options like allergens, dietary restraints, etc.
 
 ## Known Issues
 
