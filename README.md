@@ -9,10 +9,10 @@ For more details about the project refer to the *finalreport.txt* file.
 
 1. For optimal performance, use on your local machine and preferably on a Mac.
 2. Download the API client library using the following instructions:
-	* Download pip installer in Terminal using the following command: *sudo easy_install pip*
-	* Download the Google API client using the following command: *sudo pip install --upgrade google-api-python-client*
-3. Clone this repository using the following command: *git clone https://github.com/slancas1/meal_planner.git*
-4. Run the Makefile by using the following command: *make*
+	* Download pip installer in Terminal using the following command: `sudo easy_install pip`
+	* Download the Google API client using the following command: `sudo pip install --upgrade google-api-python-client`
+3. Clone this repository using the following command: `git clone https://github.com/slancas1/meal_planner.git`
+4. Run the Makefile by using the following command: `make`
 5. Insert meal preference when prompted using the following input options:
 	* B = breakfast
 	* L = lunch
