@@ -1,4 +1,4 @@
-## Dining Hall Meal Planner
+# Dining Hall Meal Planner
 
 **Authors:** Sophie Lancaster, Brianna Hoelting, Anthony DiFalco, Elisabetta Caldesi
 
